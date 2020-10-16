@@ -9,27 +9,12 @@ import SwiftUI
 import Combine
 
 struct ListCell: View {
-    @ObservedObject
-    var viewModel: ListCellViewModel
-        
     var body: some View {
         VStack(alignment: .leading) {
-            //Text(viewModel.titleText)
-            //Text(viewModel.subtitleText)
-        }
+            Text("Title")
+            Text("Subtitle")
+        }.frame(width: UIScreen.main.bounds.width,
+                height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/,
+                alignment: .leading)
     }
 }
-
-class ListCellViewModel: ObservableObject {
-    @Published
-    var title: String
-    
-    @Published
-    var subTitle: String
-    
-    init(title: String, subTitle: String) {
-        self.title = title
-        self.subTitle = subTitle
-    }
-}
-

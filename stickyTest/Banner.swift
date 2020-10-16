@@ -10,10 +10,14 @@ import SwiftUI
 struct Banner: View {
     var body: some View {
         ZStack {
-            Rectangle().foregroundColor(.blue).frame(width: UIScreen.main.bounds.size.width, height: 235, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            Rectangle()
+                .foregroundColor(.blue)
+                .frame(width: UIScreen.main.bounds.size.width,
+                       height: 235,
+                       alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
             
             VStack {
-                ScrollView(.horizontal, showsIndicators: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/) {
+                ScrollView(.horizontal) {
                     HStack(spacing: 10) {
                         Rectangle()
                             .foregroundColor(.purple)
@@ -23,7 +27,7 @@ struct Banner: View {
                             .frame(width: 200, height: 100)
                     }
                 }
-                ScrollView(.horizontal, showsIndicators: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/) {
+                ScrollView(.horizontal) {
                     HStack(spacing: 10) {
                         VStack {
                             Circle()

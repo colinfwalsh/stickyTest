@@ -19,10 +19,3 @@ struct HeaderPicker: View {
         }.pickerStyle(SegmentedPickerStyle())
     }
 }
-
-/*
-struct HeaderPicker_Previews: PreviewProvider {
-    static var previews: some View {
-        HeaderPicker()
-    }
-}*/

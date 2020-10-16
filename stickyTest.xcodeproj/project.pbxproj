@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D54574FC2539D8CE00689FA8 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54574FB2539D8CE00689FA8 /* ListCell.swift */; };
 		D557CAD0253A0F800000E5D6 /* HeaderPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557CACF253A0F800000E5D6 /* HeaderPicker.swift */; };
+		D557CAE0253A1B4B0000E5D6 /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557CADF253A1B4B0000E5D6 /* SampleViewModel.swift */; };
 		D5896E2A253A05E40065BDFB /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5896E29253A05E40065BDFB /* Banner.swift */; };
 		D5F5F58D253884FA004CBBA1 /* stickyTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5F58C253884FA004CBBA1 /* stickyTestApp.swift */; };
 		D5F5F58F253884FA004CBBA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F5F58E253884FA004CBBA1 /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		D54574FB2539D8CE00689FA8 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		D557CACF253A0F800000E5D6 /* HeaderPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderPicker.swift; sourceTree = "<group>"; };
+		D557CADF253A1B4B0000E5D6 /* SampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
 		D5896E29253A05E40065BDFB /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		D5F5F589253884FA004CBBA1 /* stickyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stickyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F5F58C253884FA004CBBA1 /* stickyTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stickyTestApp.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				D5F5F58C253884FA004CBBA1 /* stickyTestApp.swift */,
 				D5F5F58E253884FA004CBBA1 /* ContentView.swift */,
+				D557CADF253A1B4B0000E5D6 /* SampleViewModel.swift */,
 				D557CACF253A0F800000E5D6 /* HeaderPicker.swift */,
 				D5896E29253A05E40065BDFB /* Banner.swift */,
 				D54574FB2539D8CE00689FA8 /* ListCell.swift */,
@@ -274,6 +277,7 @@
 				D5F5F58F253884FA004CBBA1 /* ContentView.swift in Sources */,
 				D5F5F58D253884FA004CBBA1 /* stickyTestApp.swift in Sources */,
 				D5896E2A253A05E40065BDFB /* Banner.swift in Sources */,
+				D557CAE0253A1B4B0000E5D6 /* SampleViewModel.swift in Sources */,
 				D54574FC2539D8CE00689FA8 /* ListCell.swift in Sources */,
 				D557CAD0253A0F800000E5D6 /* HeaderPicker.swift in Sources */,
 				D5F5F60C2538E295004CBBA1 /* ScrollView+UIViewRepresentable.swift in Sources */,

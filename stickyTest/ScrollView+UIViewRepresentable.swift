@@ -3,7 +3,7 @@
 //  stickyTest
 //
 //  Created by Colin Walsh on 10/15/20.
-//
+//  Taken from https://swiftui-lab.com/a-powerful-combo/
 
 import Foundation
 import UIKit
